@@ -16,6 +16,10 @@
             }
         }
     }
+    
+    .hamburger {
+        display: none;
+    }
 }
 
 
@@ -29,11 +33,12 @@
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
+        transition: 0.3s;
 
         li {
-            margin: 1rem 0;
+            padding: 1rem 0 !important;
 
             a {
                 font-size: 2rem;
@@ -41,5 +46,11 @@
         }
     }
 
-    
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: initial !important;
+    }
 }
