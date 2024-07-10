@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="location">
                     <FaHome className='icon' />
                     <div>
-                        <p>Pokhara.</p>
+                        <p>Pokhara - 12.</p>
                         <p>Nepal.</p>
                     </div>
                 </div>
